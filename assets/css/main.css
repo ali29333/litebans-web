@@ -1,0 +1,30 @@
+/**
+ * ============================================================================
+ * LiteBansU
+ * ============================================================================
+ *
+ * Plugin Name:   LiteBansU
+ * Description:   A modern, secure, and responsive web interface for LiteBans punishment management system.
+ * Version:       5.0
+ * Market URI:    https://builtbybit.com/resources/litebansu-litebans-website.69448/
+ * Author URI:    https://yamiru.com
+ * License:       MIT
+ * License URI:   https://opensource.org/licenses/MIT
+ * Repository:    https://github.com/Yamiru/LitebansU/
+ * ============================================================================
+ */
+@import url('variables.css?v=2de9b53d');
+@import url('base.css?v=9350940e');
+@import url('components.css?v=82d46410');
+@import url('layout.css?v=0be3f978');
+@import url('themes.css?v=40fbc669');
+@import url('utilities.css?v=5358f675');
+@import url('responsive.css?v=83e78e7e');
+
+@import url('pages/home.css?v=1be4bdf8');
+@import url('pages/stats.css?v=1adfac85');
+@import url('pages/punishments.css?v=c0731344');
+@import url('pages/detail.css?v=cb1c7815');
+@import url('pages/admin.css?v=fdca68a6');
+
+@import url('refresh.css?v=2');
