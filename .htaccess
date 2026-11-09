@@ -1,5 +1,6 @@
 RewriteEngine On
 
+<IfModule mod_headers.c>
 # Security Headers
 Header always set X-Content-Type-Options nosniff
 Header always set X-Frame-Options DENY
@@ -12,6 +13,7 @@ Header always set Content-Security-Policy "default-src 'self'; script-src 'self'
 ServerSignature Off
 Header always unset Server
 Header always unset X-Powered-By
+</IfModule>
 
 # UTF-8 encoding
 <IfModule mod_mime.c>

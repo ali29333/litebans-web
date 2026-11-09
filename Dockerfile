@@ -22,7 +22,7 @@ RUN apt-get update && apt-get install -y \
     opcache \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
-RUN a2enmod rewrite
+RUN a2enmod rewrite headers expires deflate
 
 COPY . /var/www/html/
 
